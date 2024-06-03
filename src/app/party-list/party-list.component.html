@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Party Name</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let party of parties">
+      <td>{{ party.name }}</td>
+      <td>
+        <button (click)="deleteParty(party.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

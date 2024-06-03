@@ -1,0 +1,6 @@
+{
+  "parties": [
+    { "id": 1, "name": "Party A", "date": "2024-01-01" },
+    { "id": 2, "name": "Party B", "date": "2024-02-02" }
+  ]
+}
